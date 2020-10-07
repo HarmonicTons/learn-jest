@@ -1,23 +1,21 @@
 const getTaille = ({ longueurDuSaut, nbVerrues }) => {
-  return longueurDuSaut * nbVerrues + 1;
+  // TODO
+  return 0;
 };
 
 const getCouleurDesYeux = ({ couleur }) => {
-  return couleur === "gris" ? "bleu" : couleur;
+  // TODO
+  return "";
 };
 
 const getRoyaume = ({ haleine, coassement }) => {
-  if (haleine === "neutre" && coassement === "aigue") {
-    return "Saxe";
-  }
-  if (haleine === "putride" && coassement === "grave") {
-    return "Bavière";
-  }
-  return "Lombard";
+  // TODO 
+  return "";
 };
 
 const getEstCharmant = ({ estVivant, couleur }) => {
-  return estVivant && couleur !== "marron";
+  // TODO
+  return true;
 };
 
 const tranformeCrapaudEnPrince = (crapaud) => {
