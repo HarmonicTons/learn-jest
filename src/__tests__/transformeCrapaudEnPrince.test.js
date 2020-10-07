@@ -41,8 +41,10 @@ describe("[RG3] royaume", () => {
 });
 
 describe("[RG4] estCharmant", () => {
-  // TODO
-    expect("TODO").toBe("DONE");
+  it("[RG4.1] Le prince est charmant si le crapaud est vivant et pas marron", () => {
+      // TODO
+      expect("TODO").toBe("DONE");
+  });
 });
 
 describe("transformeCrapaudEnPrince", () => {
